@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scooby-Doo – Misterio S.A.</title>
+  <link rel="stylesheet" href="scooby.doo.css"/>
+</head>
+<body>
+
+<!-- ══ SECCION / PORTADA ══ -->
+<section class="hero">
+  <!-- Stars -->
+  <div class="stars" id="stars"></div>
+  <!-- Paw prints float -->
+  <div class="paw-bg" id="paws"></div>
+
+  <p class="hero-subtitle">🔍 Misterio S.A. presenta</p>
+  <h1 class="hero-title">SCOOBY-DOO</h1>
+  <p class="hero-tagline">¡Scooby-Dooby-Doo, dónde estás tú! 🐾</p>
+
+  <div class="characters-strip">
+    <span class="char-badge">🐕 Scooby</span>
+    <span class="char-badge">🥪 Shaggy</span>
+    <span class="char-badge">👩 Daphne</span>
+    <span class="char-badge">🕵️ Fred</span>
+    <span class="char-badge">🤓 Velma</span>
+  </div>
+
+  <div class="scroll-hint">⬇️</div>
+</section>
+
+<!-- ══ SCOOBY SNACK MARQUEE ══ -->
+<div class="scooby-snack-bar">
+  <span class="snack-text">🦴 ¡Scooby Snacks! &nbsp;&nbsp; 🔍 ¡Hay un fantasma! &nbsp;&nbsp; 👻 Ruh-roh! &nbsp;&nbsp; 🚐 La Máquina del Misterio &nbsp;&nbsp; 🥪 Sándwich de Shaggy &nbsp;&nbsp; 🐾 Huellas en la oscuridad &nbsp;&nbsp;</span>
+</div>
+
+<!-- ══ PERSONAJES / GALLERY ══ -->
+<section class="gallery-section">
+  <h2 class="section-title">👻 Los Personajes</h2>
+  <div class="gallery-grid">
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-overlay"></div>
+        <div class="card-emoji"><img src="scooby.jpeg" class="img-gallery" alt="Scooby-Doo"></div>
+        <div class="card-name">Scooby-Doo</div>
+        <div class="card-desc">El Gran Danés más valiente (o no) del mundo</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-overlay"></div>
+        <div class="card-emoji"><img src="shaggy.jpeg" class="img-gallery" alt="Scooby-Doo"></div>
+        <div class="card-name">Shaggy</div>
+        <div class="card-desc">Siempre con hambre, siempre con miedo</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-overlay"></div>
+        <div class="card-emoji"><img src="daphne.jpeg" class="img-gallery" alt="Scooby-Doo"></div>
+        <div class="card-name">Daphne</div>
+        <div class="card-desc">La más elegante de la pandilla</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-overlay"></div>
+        <div class="card-emoji"><img src="freek.jpeg" class="img-gallery" alt="Scooby-Doo"></div>
+        <div class="card-name">Fred Jones</div>
+        <div class="card-desc">Líder del grupo y rey de las trampas</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-overlay"></div>
+        <div class="card-emoji"><img src="vitma.jpeg" class="img-gallery" alt="Scooby-Doo"></div>
+        <div class="card-name">Velma</div>
+        <div class="card-desc">La más inteligente — ¡Jinkies!</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-overlay"></div>
+        <div class="card-emoji"><img src="scooby-fastama.jpeg" class="img-gallery" alt="Scooby-Doo"></div>
+        <div class="card-name">El Fantasma</div>
+        <div class="card-desc">Siempre resulta ser alguien disfrazado</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-overlay"></div>
+        <div class="card-emoji"><img src="maquina del misterio.jpeg" class="img-gallery" alt="Scooby-Doo"></div>
+        <div class="card-name">La Máquina</div>
+        <div class="card-desc">La furgoneta verde del Misterio S.A.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-overlay"></div>
+        <div class="card-emoji"><img src="scooby-snack.jpeg" class="img-gallery" alt="Scooby-Doo"></div>
+        <div class="card-name">Scooby Snack</div>
+        <div class="card-desc">El premio favorito de Scooby y Shaggy</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ TRANSITION DEMO ══ -->
+<section class="mystery-section">
+  <h2 class="section-title">🔍 Los Misterios</h2>
+  <div class="mystery-grid">
+    <div class="mystery-card">
+      <div class="mystery-icon">🏚️</div>
+      <div class="mystery-title">Casa Embrujada</div>
+      <div class="mystery-text">Una mansión abandonada llena de pasadizos secretos y trampillas. ¡Scooby se niega a entrar!</div>
+    </div>
+    <div class="mystery-card">
+      <div class="mystery-icon">🌊</div>
+      <div class="mystery-title">Monstruo del Lago</div>
+      <div class="mystery-text">Un ser del pantano aterroriza el pueblo. Fred ya tiene el plan... ¿funcionará esta vez?</div>
+    </div>
+    <div class="mystery-card">
+      <div class="mystery-icon">🎪</div>
+      <div class="mystery-title">Circo Fantasmal</div>
+      <div class="mystery-text">El circo del pueblo esconde algo turbio. Velma encontrará la pista, ¡Jinkies!</div>
+    </div>
+    <div class="mystery-card">
+      <div class="mystery-icon">💎</div>
+      <div class="mystery-title">El Diamante Robado</div>
+      <div class="mystery-text">Daphne sospecha del mayordomo. Fred prepara una trampa en la galería de arte.</div>
+    </div>
+  </div>
+
+  <p class="demo-label">🐾 Hover sobre los personajes (transition-delay)</p>
+  <div class="size-demo">
+    <div class="size-box"><img src="scooby.jpeg" class="img-demo" alt="Scooby-Doo"></div>
+    <div class="size-box"><img src="shaggy.jpeg" class="img-demo" alt="Shaggy"></div>
+    <div class="size-box"><img src="vitma.jpeg" class="img-demo" alt="Velma"></div>
+    <div class="size-box"><img src="freek.jpeg" class="img-demo" alt="Fred"></div>
+    <div class="size-box"><img src="daphne.jpeg" class="img-demo" alt="Daphne"></div>
+  </div>
+</section>
+
+<!-- ══ CARRUSEL ══ -->
+<section class="carousel-section">
+  <div class="carousel-title-wrap">
+    <div class="carousel-title" id="carouselTitle"></div>
+  </div>
+
+  <!-- Row 1 -->
+  <div class="carousel-track-wrap">
+    <div class="carousel-track" id="track1"></div>
+  </div>
+
+  <div style="height:1.5rem"></div>
+
+  <!-- Row 2 reverse -->
+  <div class="carousel-track-wrap reverse">
+    <div class="carousel-track" id="track2"></div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  🐾  2026 Scooby-Doo – Misterio S.A. &nbsp;|&nbsp; Obito Productions 🐾
+</footer>
+
+<script>
+  /* ── Stars ── */
+  const starsEl = document.getElementById('stars');
+  for (let i = 0; i < 80; i++) {
+    const s = document.createElement('div');
+    s.className = 'star';
+    s.style.cssText = `
+      left:${Math.random()*100}%;
+      top:${Math.random()*100}%;
+      animation-delay:${Math.random()*3}s;
+      animation-duration:${1.5+Math.random()*2}s;
+      width:${2+Math.random()*3}px;
+      height:${2+Math.random()*3}px;
+      opacity:${.1+Math.random()*.6};
+    `;
+    starsEl.appendChild(s);
+  }
+
+  /* ── Floating paws ── */
+  const pawEl = document.getElementById('paws');
+  for (let i = 0; i < 15; i++) {
+    const p = document.createElement('div');
+    p.className = 'paw';
+    p.textContent = '🐾';
+    p.style.cssText = `
+      left:${Math.random()*100}%;
+      font-size:${1+Math.random()*2}rem;
+      animation-delay:${Math.random()*8}s;
+      animation-duration:${6+Math.random()*6}s;
+    `;
+    pawEl.appendChild(p);
+  }
+
+  /* ── Carousel animated title (bouncing letters) ── */
+  const titleText = 'GALERÍA DEL MISTERIO';
+  const titleEl = document.getElementById('carouselTitle');
+  titleText.split('').forEach(ch => {
+    const sp = document.createElement('span');
+    sp.textContent = ch === ' ' ? '\u00A0' : ch;
+    titleEl.appendChild(sp);
+  });
+
+  /* ── Carousel items data ── */
+  const items = [
+    { emoji:"🐕", label:'Scooby' },
+    { emoji:"🥪", label:'Shaggy' },
+    { emoji:"👻", label:'Fantasma' },
+    { emoji:"🔍", label:'Pista' },
+    { emoji:"🏚️", label:'Mansión' },
+    { emoji:"🚐", label:'La Máquina' },
+    { emoji:"🤓", label:'Velma' },
+    { emoji:"👩‍🦰", label:'Daphne' },
+    { emoji:"🕵️", label:'Fred' },
+    { emoji:"🦴", label:'Snack' },
+    { emoji:"💀", label:'Villano' },
+    { emoji:"🗝️", label:'Llave' },
+  ];
+
+  function buildTrack(id, list) {
+    const track = document.getElementById(id);
+    // duplicate for seamless loop
+    [...list, ...list].forEach(item => {
+      const el = document.createElement('div');
+      el.className = 'carousel-item';
+      el.innerHTML = `
+        <div class="carousel-item-bg"></div>
+        <div class="carousel-emoji">${item.emoji}</div>
+        <div class="carousel-label">${item.label}</div>
+      `;
+      track.appendChild(el);
+    });
+  }
+
+  buildTrack('track1', items);
+  buildTrack('track2', [...items].reverse());
+</script>
+</body>
+</html>
